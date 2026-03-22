@@ -24,7 +24,7 @@
      </rect>
     </property>
     <property name="currentIndex">
-     <number>2</number>
+     <number>1</number>
     </property>
     <widget class="QWidget" name="Length">
      <attribute name="title">
@@ -36,20 +36,72 @@
         <item>
          <layout class="QHBoxLayout" name="horizontalLayout">
           <item>
-           <widget class="QLineEdit" name="editTop"/>
+           <widget class="QLineEdit" name="editLenTop"/>
           </item>
           <item>
-           <widget class="QComboBox" name="comboTopUnit"/>
+           <widget class="QComboBox" name="comboLenTop">
+            <item>
+             <property name="text">
+              <string>m</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>km</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>in</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>ft</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>mi</string>
+             </property>
+            </item>
+           </widget>
           </item>
          </layout>
         </item>
         <item>
          <layout class="QHBoxLayout" name="horizontalLayout_2">
           <item>
-           <widget class="QLineEdit" name="editBotom"/>
+           <widget class="QLineEdit" name="editLenBot"/>
           </item>
           <item>
-           <widget class="QComboBox" name="comboBottomUnit"/>
+           <widget class="QComboBox" name="comboLenBot">
+            <item>
+             <property name="text">
+              <string>m</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>km</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>in</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>ft</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>mi</string>
+             </property>
+            </item>
+           </widget>
           </item>
          </layout>
         </item>
@@ -67,20 +119,52 @@
         <item>
          <layout class="QHBoxLayout" name="horizontalLayout_3">
           <item>
-           <widget class="QLineEdit" name="editTop_2"/>
+           <widget class="QLineEdit" name="editMassTop"/>
           </item>
           <item>
-           <widget class="QComboBox" name="comboTopUnit_2"/>
+           <widget class="QComboBox" name="comboMassTop">
+            <item>
+             <property name="text">
+              <string>kg</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>lb</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>oz</string>
+             </property>
+            </item>
+           </widget>
           </item>
          </layout>
         </item>
         <item>
          <layout class="QHBoxLayout" name="horizontalLayout_4">
           <item>
-           <widget class="QLineEdit" name="editBottom_2"/>
+           <widget class="QLineEdit" name="editMassBot"/>
           </item>
           <item>
-           <widget class="QComboBox" name="comboTopUnit_3"/>
+           <widget class="QComboBox" name="comboMassBot">
+            <item>
+             <property name="text">
+              <string>kg</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>lb</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>oz</string>
+             </property>
+            </item>
+           </widget>
           </item>
          </layout>
         </item>
@@ -98,20 +182,52 @@
         <item>
          <layout class="QHBoxLayout" name="horizontalLayout_6">
           <item>
-           <widget class="QLineEdit" name="editTop_3"/>
+           <widget class="QLineEdit" name="editTempTop"/>
           </item>
           <item>
-           <widget class="QComboBox" name="comboTopUnit_4"/>
+           <widget class="QComboBox" name="comboTempTop">
+            <item>
+             <property name="text">
+              <string>C</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>F</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>K</string>
+             </property>
+            </item>
+           </widget>
           </item>
          </layout>
         </item>
         <item>
          <layout class="QHBoxLayout" name="horizontalLayout_5">
           <item>
-           <widget class="QLineEdit" name="editBottom"/>
+           <widget class="QLineEdit" name="editTempBot"/>
           </item>
           <item>
-           <widget class="QComboBox" name="comboTopUnit_5"/>
+           <widget class="QComboBox" name="comboTempBot">
+            <item>
+             <property name="text">
+              <string>C</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>F</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>K</string>
+             </property>
+            </item>
+           </widget>
           </item>
          </layout>
         </item>
