@@ -11,6 +11,8 @@ qt_add_executable(Converter
     mainwindow.cpp
     mainwindow.h
     mainwindow.ui
+    converter.cpp
+    converter.h
 )
 
 target_link_libraries(Converter
